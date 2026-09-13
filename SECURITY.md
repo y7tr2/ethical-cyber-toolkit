@@ -1,0 +1,1 @@
+# Security policy\n\nUse the examples only on systems you own or are explicitly authorized to assess. Do not submit secrets, personal data, or target information to this repository.\n
