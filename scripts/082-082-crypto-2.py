@@ -1,0 +1,6 @@
+#!/usr/bin/env python3\n# Sanitize a report line — Cryptography\n# تنظيف نص تقرير — التشفير والتجزئة\n# استخدمه فقط على جهازك أو على نظام لديك إذن كتابي لاختباره. لا تجمع كلمات مرور أو بيانات شخصية.\n\n"""Cryptography: normalize a line before storing it in a report."""
+import re
+
+RAW_LINE = "  finding-82:   review   required  "
+clean = re.sub(r"\s+", " ", RAW_LINE).strip()
+print({"category": "crypto", "normalized": clean})
